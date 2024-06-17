@@ -1,0 +1,16 @@
+REST api - JSON data
+
+GET /users - list down all the users
+
+GET /users/1 - get user with id 1. single resource retrieval (CRUD) in RESTful API design.
+
+Dynamic path parameter: use :param (EX. GET /users/:id)
+
+
+POST /users - create a new user, and return 201 Created status code along with location header pointing to newly created user's URL. This is also known as "resource creation" or "creation of new resources".
+POST /users/1 - update the existing user with id 1. single resource update (CRUD) in RESTful API design.
+
+
+PATCH /users/1 - edit user from users with id:1
+
+DELETE /users/2 - delete the user with id:1
